@@ -7,6 +7,8 @@ $(document).ready(function() {
     $('#titleWorkShop').show();
     $('#map').show();
     $('#whyChooseUsID').show();
+    $('.containerChild').show();
+
 
     document.getElementById("openNav").addEventListener("click", function() {
         document.getElementById("mySidenav").style.width = "250px";
@@ -28,7 +30,7 @@ $(document).ready(function() {
 
     }
 
-
+w
     function scrollBar() {
         var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
