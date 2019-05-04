@@ -241,6 +241,20 @@
               }
         </script>
 
+        <script>
+          $(document).ready(function() {
+            $("#skip").focusin(function(){
+              $(this).css("position", "static");
+            });
+
+            $("#skip").focusout(function(){
+              $(this).css("position", "absolute");
+            });
+
+          });
+
+        </script>
+
     </body>
 
 </html>
