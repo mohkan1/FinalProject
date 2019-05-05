@@ -399,6 +399,36 @@ justify-content: center;
     background-position: -2590px 0;
 }
 
+/*sprite faces*/
+.spriteFaces {
+    background-image: url("../IMAGES/spritesheetCustomers.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-CEO {
+    width: 512px;
+    height: 512px;
+    background-position: 0 0;
+}
+
+.sprite-man1 {
+    width: 256px;
+    height: 256px;
+    background-position: -512px 0;
+}
+
+.sprite-man2 {
+    width: 256px;
+    height: 256px;
+    background-position: -768px 0;
+}
+
+.sprite-man3 {
+    width: 256px;
+    height: 256px;
+    background-position: -1024px 0;
+}
 
 /*reponsive*/
 @media only screen and (max-width: 1000px) {
