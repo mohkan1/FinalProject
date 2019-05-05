@@ -266,6 +266,139 @@ input[type=submit]:hover {
     text-align: center;
     background-color: #fdcd3b;
 }
+
+.respone {
+    color:#FF3427;
+}
+#whyChooseUsID{
+    display: none;
+}
+
+#skip{
+  position: absolute;
+  left: -1000px;
+}
+
+
+/*spritesheet test*/
+
+.parentCompanies{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.parentTitle{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.row{
+  width: 100%;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.sprite {
+    background-image: url("../IMAGES/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-list {
+    width: 185px;
+    height: 75px;
+    background-position: 0 0;
+}
+
+.sprite-logo10 {
+    width: 185px;
+    height: 75px;
+    background-position: -185px 0;
+}
+
+.sprite-logo11 {
+    width: 185px;
+    height: 75px;
+    background-position: -370px 0;
+}
+
+.sprite-logo12 {
+    width: 185px;
+    height: 75px;
+    background-position: -555px 0;
+}
+
+.sprite-logo13 {
+    width: 185px;
+    height: 75px;
+    background-position: -740px 0;
+}
+
+.sprite-logo14 {
+    width: 185px;
+    height: 75px;
+    background-position: -925px 0;
+}
+
+.sprite-logo15 {
+    width: 185px;
+    height: 75px;
+    background-position: -1110px 0;
+}
+
+.sprite-logo2 {
+    width: 185px;
+    height: 75px;
+    background-position: -1295px 0;
+}
+
+.sprite-logo3 {
+    width: 185px;
+    height: 75px;
+    background-position: -1480px 0;
+}
+
+.sprite-logo4 {
+    width: 185px;
+    height: 75px;
+    background-position: -1665px 0;
+}
+
+.sprite-logo5 {
+    width: 185px;
+    height: 75px;
+    background-position: -1850px 0;
+}
+
+.sprite-logo6 {
+    width: 185px;
+    height: 75px;
+    background-position: -2035px 0;
+}
+
+.sprite-logo7 {
+    width: 185px;
+    height: 75px;
+    background-position: -2220px 0;
+}
+
+.sprite-logo8 {
+    width: 185px;
+    height: 75px;
+    background-position: -2405px 0;
+}
+
+.sprite-logo9 {
+    width: 185px;
+    height: 75px;
+    background-position: -2590px 0;
+}
+
+
+/*reponsive*/
 @media only screen and (max-width: 1000px) {
     .skillsFirst, .skillsFirstOpinions {
         display: block;
@@ -292,15 +425,7 @@ input[type=submit]:hover {
         grid-template-rows: auto;
         grid-template-areas: "div" "aside"
    }
-}
-.respone {
-    color:#FF3427;
-}
-#whyChooseUsID{
-    display: none;
-}
 
-#skip{
-  position: absolute;
-  left: -1000px;
+
+
 }
