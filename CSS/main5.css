@@ -300,6 +300,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
+.row > i {
+    border: 1px solid gray;
+}
 .sprite {
     background-image: url("../IMAGES/spritesheet.png");
     background-repeat: no-repeat;
