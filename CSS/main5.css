@@ -125,6 +125,7 @@
     overflow: hidden;
     vertical-align: middle;
     grid-area: div;
+
 }
 /*comments*/
 .skillsFirstOpinions{
@@ -143,6 +144,8 @@
     text-align: center;
     line-height: 1em;
     grid-area: div;
+    display: flex;
+    justify-content: center;
 }
 .skillsFirstOpinions > div > img{
     width: 70%;
@@ -428,6 +431,40 @@ justify-content: center;
     width: 256px;
     height: 256px;
     background-position: -1024px 0;
+}
+
+
+
+/*sprite sheet work*/
+
+.spriteWork {
+    background-image: url("IMAGES/spritesheetWork.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-work1 {
+    width: 700px;
+    height: 569px;
+    background-position: 0 0;
+}
+
+.sprite-work2 {
+    width: 800px;
+    height: 607px;
+    background-position: -700px 0;
+}
+
+.sprite-work3 {
+    width: 700px;
+    height: 500px;
+    background-position: -1500px 0;
+}
+
+.sprite-work4 {
+    width: 700px;
+    height: 597px;
+    background-position: -2200px 0;
 }
 
 /*reponsive*/
