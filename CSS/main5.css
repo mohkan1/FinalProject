@@ -438,7 +438,7 @@ justify-content: center;
 /*sprite sheet work*/
 
 .spriteWork {
-    background-image: url("IMAGES/spritesheetWork.png");
+    background-image: url("../IMAGES/spritesheetWork.png");
     background-repeat: no-repeat;
     display: block;
 }
