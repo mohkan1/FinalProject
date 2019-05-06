@@ -307,7 +307,7 @@ justify-content: center;
     border: 1px solid gray;
 }
 .sprite {
-    background-image: url("../IMAGES/spritesheet.png");
+    background-image: url("../IMAGES/spritesheet-min.png");
     background-repeat: no-repeat;
     display: block;
 }
@@ -404,7 +404,7 @@ justify-content: center;
 
 /*sprite faces*/
 .spriteFaces {
-    background-image: url("../IMAGES/spritesheetCustomers.png");
+    background-image: url("../IMAGES/spritesheetCustomers-min.png");
     background-repeat: no-repeat;
     display: block;
 }
@@ -438,7 +438,7 @@ justify-content: center;
 /*sprite sheet work*/
 
 .spriteWork {
-    background-image: url("../IMAGES/spritesheetWork.png");
+    background-image: url("../IMAGES/spritesheetWork-min.png");
     background-repeat: no-repeat;
     display: block;
 }
