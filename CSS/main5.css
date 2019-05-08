@@ -404,37 +404,34 @@ justify-content: center;
 
 /*sprite faces*/
 .spriteFaces {
-    background-image: url("../IMAGES/spritesheetCustomers-min.png");
+    background-image: url("../IMAGES/spritesheetCustomersNew-min (1).png");
     background-repeat: no-repeat;
     display: block;
 }
 
-.sprite-CEO {
-    width: 512px;
-    height: 512px;
+.sprite-CEO2 {
+    width: 256px;
+    height: 256px;
     background-position: 0 0;
 }
 
 .sprite-man1 {
     width: 256px;
     height: 256px;
-    background-position: -512px 0;
+    background-position: -256px 0;
 }
-
 
 .sprite-man2 {
     width: 256px;
     height: 256px;
-    background-position: -768px 0;
+    background-position: -512px 0;
 }
 
 .sprite-man3 {
     width: 256px;
     height: 256px;
-    background-position: -1024px 0;
+    background-position: -768px 0;
 }
-
-
 
 /*sprite sheet work*/
 
