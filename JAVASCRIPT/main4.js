@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $("#openNav").show();
 
-    document.getElementById("progress-container").style.visibility = "visible";
+    $('#progress-container').show();
     document.getElementById("workShopID").style.visibility = "visible";
     $('#titleWorkShop').show();
     $('#map').show();
