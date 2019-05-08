@@ -173,7 +173,7 @@
 }
 .workShop > a {
     border: none;
-    background: #fdcd3b;
+    background: #000;
     color: #ffffff !important;
     font-weight: 100;
     padding: 30px;
@@ -236,7 +236,7 @@ input[type=submit]:hover {
 .containerChild > button {
     border: none;
     width: 50%;
-    background: #45a049;
+    background: #000;
     color: #ffffff !important;
     font-weight: 100;
     padding: 15px;
