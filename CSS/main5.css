@@ -468,15 +468,20 @@ justify-content: center;
     background-position: -2200px 0;
 }
 
+
+.skillsFirst > div{
+      text-align: center;
+ }
+ .skillsFirst > div > img{
+     width: 100%;
+}
 /*reponsive*/
 @media only screen and (max-width: 1000px) {
     .skillsFirst, .skillsFirstOpinions {
         display: block;
         text-align: center;
    }
-    .skillsFirst > div > img{
-        width: 100%;
-   }
+
     .skillsFirst > aside{
         margin-bottom: 30%;
    }

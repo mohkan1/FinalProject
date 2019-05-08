@@ -35,7 +35,7 @@ function update() {
 function setupEditor() {
   window.editor = ace.edit("editor");
   editor.setTheme("ace/theme/monokai");
-  editor.getSession().setMode("ace/mode/html");
+  editor.getSession().setMode("ace/mode/html"); 
   editor.setValue(``, 1); //1 = moves cursor to end
 
 
