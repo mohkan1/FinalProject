@@ -1,37 +1,13 @@
+//Preparing the code editor
 function update() {
   var idoc = document.getElementById('iframe').contentWindow.document;
 
   idoc.open();
   idoc.write(editor.getValue());
   idoc.close();
-
-  var keywords = editor.getValue().split(/\r\n|\r|\n/);
-  for (var i = 0; i < keywords.length; i++) {
-      x = keywords[i].replace(/^[ ]+|[ ]+$/g, '');
-
-      if (x == "html") {
-          keywords[i] = '<!DOCTYPE html>\n<html lang="en" dir="ltr">\n<head>\n<meta charset="utf-8">\n<title></title>\n</head>\n<body>\n\n</body>\n</html>';
-          editor.setValue(keywords.join("\n"));
-
-      }
-      if (x == "img") {
-          keywords[i] = '    <img src="">';
-          editor.setValue(keywords.join("\n"));
-
-      }
-
-
-      if (x == "div") {
-          keywords[i] = '    <div class="">\n\n    </div>';
-          editor.setValue(keywords.join("\n"));
-
-      }
-
-
-  }
-
 }
 
+//Some fundemental settings like the theme and which programming languages 
 function setupEditor() {
   window.editor = ace.edit("editor");
   editor.setTheme("ace/theme/monokai");
@@ -47,7 +23,7 @@ function setupEditor() {
 
   editor.focus();
 
-
+//The font size and some others setting to the code editor
   editor.setOptions({
       fontSize: "14pt",
       showLineNumbers: true,
